@@ -1,0 +1,143 @@
+/* Relative Across All Pages */
+
+body {
+    background: url("../images/random_grey_variations/random_grey_variations.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #ccc;
+}
+
+.navbar {
+    width: 960px;
+    height: 90px;
+    border-bottom: 3px solid #ccc;
+    flex-wrap: nowrap;
+}
+
+.listItems {
+    /* Class used for lining of NAVBAR links */
+    float: right;
+    margin-left: 50%;
+}
+
+.mainContent {
+    margin: 45px auto 90px auto;
+    width: 100%;
+    max-width: 960px;
+    background-color: #f8f9fa;
+    border: 3px solid #ccc;
+}
+
+.mainSection {
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 40px; 
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    line-height: 49px;
+    border-bottom: 3px solid #ccc;
+}
+
+#myName {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    color: white;
+    padding-top: 30px;
+    width: 25%;
+    height: 90px;
+    background-color: #4aaaa5;
+    border-bottom: 3px solid #ccc;
+}
+
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    line-height: 30px;
+}
+
+footer {
+    padding-top: 10px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background: #666;
+    border-top: 3px solid #4aaaa5;
+}
+
+/* Index Specific */
+
+.planePic {
+    float: left;
+    margin: 0px 25px 5px 0px;
+    width: 200px;
+    height: 150px;
+}
+
+/* Portfolio Specific */
+
+.portfolioPics {
+    width: 250px;
+    height: 180px;
+    margin: 20px 0px 20px 0px;
+}
+
+.gallery {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin: 20px 0 25px;
+}
+  
+.gallery h3 {
+    position: absolute;
+    bottom: 35px;
+    width: 250px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Contact Page Specific */
+
+label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+}
+
+.messageBox{
+    resize: none;
+}
+
+.btn-success {
+    background-color: #4aaaa5;
+}
+
+:hover.btn-success {
+    background-color: #4aaaa5;
+}
+
